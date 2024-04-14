@@ -1,0 +1,29 @@
+form {
+  display: flex;
+  padding-bottom: 5vh;
+}
+
+input {
+  width: 50vh;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 1vh;
+  outline:none;
+  font-size: 16px;
+}
+
+button{
+  padding: 1.5vh;
+  border: none;
+  border-left: 0.5px solid black;
+  cursor: pointer;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+}
+
+button:hover {
+  transition: 0.6s;
+  background-color: bisque;
+}

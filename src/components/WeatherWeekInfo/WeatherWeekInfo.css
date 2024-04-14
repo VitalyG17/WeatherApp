@@ -1,0 +1,31 @@
+.weather-week-info h3 {
+  margin: 5vh 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  gap: 50px;
+  margin-bottom: 2vh;
+}
+
+li {
+  list-style-type: none;
+  border-radius: 18px;
+  align-items: center;
+  padding: 18px;
+  box-shadow: 0 0 10px 1px rgb(148, 148, 148); 
+}
+
+.weather-week-info img {
+  display: block; 
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+}
+
+.weather-week-info p {
+  font-size: 12px;
+}
