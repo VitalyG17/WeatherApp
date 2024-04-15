@@ -11,8 +11,8 @@ function WeatherWeekInfo({ weatherData }) {
         (day, index) =>
           index > 0 && (
             <li key={day?.date_epoch}>
-              <b>{timestampToDate(day?.date_epoch)}</b>
-              <p>Средняя температура <b>{day?.day.avgtemp_c}°C</b></p>
+              <p className='date'>{timestampToDate(day?.date_epoch)}</p>
+              <p>{day?.day.avgtemp_c} °C</p>
               <img
                 src={day?.day?.condition?.icon}
                 alt="Изображение осадков"

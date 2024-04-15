@@ -27,5 +27,15 @@ li {
 }
 
 .weather-week-info p {
-  font-size: 12px;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.weather-week-info .date {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(202, 202, 202);
 }
